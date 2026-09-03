@@ -137,8 +137,7 @@ tunnels:
     addr: 9000
 ```
 
-<details>
-  <summary><b>Note about ngrok Free plan behavior</b></summary>
+### Note about ngrok Free plan behavior
   
 Recent versions of ngrok (v3) on the Free plan may multiplex multiple HTTP
 tunnels onto the same public hostname. In this situation both tunnels may
@@ -155,8 +154,6 @@ through separate tunnels on the same hostname may not work as expected.
 
 If this happens, consider using a reverse proxy or another configuration
 that allows both services to be exposed through a single ngrok endpoint.
-
-</details>
 
 ### Upload Push Certificate
 
